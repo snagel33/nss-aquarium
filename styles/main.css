@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white;
+}
+
+ul {
+    display: flex;
+
+}
+
+.fish {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 50%;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 50%;
+}
+
+h1 {
+    display: flex;
+}
+
+aside {
+    width: 40%;
+    height: 100px;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px black;
+    font-style: italic;
+    color: black;
+}
